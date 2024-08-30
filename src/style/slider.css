@@ -1,0 +1,18 @@
+.slider::before {
+    border-radius: 50%;
+    position: absolute;
+    background-color: #000000;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 4px;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider::before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }

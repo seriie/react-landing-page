@@ -1,0 +1,21 @@
+.right {
+    transform: translateX(1000px);
+    opacity: 0;
+    transition: transform 2s ease-in-out, opacity 2s ease-in-out;
+}
+
+.left {
+    transform: translateY(-500px);
+    opacity: 0;
+    transition: transform 1.5s ease-in-out, opacity 2s ease-in-out;
+}
+
+.right.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.left.active {
+    transform: translateY(0);
+    opacity: 1;
+}

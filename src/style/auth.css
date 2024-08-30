@@ -1,0 +1,65 @@
+.auth-form {
+    background-color: #F8FAFC;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 100px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #020617;
+    text-align: center;
+  }
+  
+  .auth-form h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .auth-form input[type="text"],
+  .auth-form input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 4px;
+    background-color: #CBD5E1;
+    color: #475569;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .auth-form input[type="text"]:focus,
+  .auth-form input[type="password"]:focus {
+    border-color: #ffcc00;
+    outline: none;
+  }
+  
+  .auth-form button {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #0EA5E9;
+    color: #F8FAFC;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-form button:hover {
+    background-color: #0284C7;
+  }
+  
+  .auth-form p {
+    margin-top: 1rem;
+    color: #020617;
+    transition: color 0.3s ease;
+  }
+
+  .auth-form .register-here, .auth-form .login-here {
+    color: #0EA5E9;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }

@@ -1,0 +1,25 @@
+.about-left, .about-right {
+    transform: translateX(-500px);
+    opacity: 0;
+}
+
+.about-left {
+    transition: transform 1.5s ease-in-out, opacity 2s ease-in-out;
+}
+
+.about-left.active, .about-right.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.about-right {
+    transition: transform 2s ease-in-out, opacity 2.5s ease-in-out;
+}
+
+.fa-instagram {
+    transition: background .4s ease;
+}
+
+.fa-instagram:hover {
+    background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+}

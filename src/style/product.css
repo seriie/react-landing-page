@@ -1,0 +1,110 @@
+.product .container {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container .products {
+    height: auto;
+    max-height: 230px;
+    background-color: #64748B;
+    padding: 4px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1;
+    /* position: relative; */
+    width: 250px;
+}
+
+.container .products .image {
+    position: relative;
+}
+
+.container .products .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #E2E8F0;
+}
+
+.container .products .hover-me {
+    position: absolute;
+    width: 100%;
+    text-shadow: 2px 2px 0 #020617;
+    height: 100%;
+    background-color: transparent;
+    color: #F8FAFC;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+    transition: .4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.container .products .hover-me:hover {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.container .image .iphone {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.container .image .ipad {
+    width: 250px;
+    height: 190px;
+    border-radius: 12px;
+}
+
+.container .image .apple-watch {
+    width: 250px;
+    height: 190px;
+    border-radius: 12px;
+}
+
+.container .image .airpods {
+    width: 250px;
+    height: 190px;
+    border-radius: 12px;
+}
+
+.container .products .product-description {
+    visibility: hidden;
+    padding: 10px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(-200px);
+    background-color: #E2E8F0;
+    color: #1E293B;
+    z-index: -99;
+    font-size: 17px;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 3s ease, transform .5s ease, opacity 1s ease;
+}
+
+.container .products:hover .product-description {
+    visibility: visible;
+    opacity: 1;
+    max-height: 999px;
+    transform: translateY(10px);
+}
+
+.products {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.products.active {
+    opacity: 1;
+    transform: translateY(0);
+}

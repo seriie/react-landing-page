@@ -1,0 +1,29 @@
+.app-sidebar-headers {
+    display: none;
+}
+
+.app-sidebar-headers .app-head {
+    align-items: center;
+    background-color: #f1f5f965;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 8px 3px #f1f5f9a2;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    -webkit-backdrop-filter: blur(10px);
+    transform: translateX(-200px);
+    width: 250px;
+    visibility: hidden;
+    height: 100%;
+    transition: .4s ease;
+}
+
+.app-sidebar-headers .app-head.active {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.sidebar .ul .li a {
+    display: inline;
+    text-align: center;
+}

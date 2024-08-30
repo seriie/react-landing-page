@@ -1,0 +1,34 @@
+* {
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+}
+
+.app-head {
+  z-index: 9;
+}
+
+.app-edge {
+  display: none;
+}
+
+body {
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: #F8FAFC;
+  background-position: center;
+  overflow-x: hidden;
+  transition: all 1s;
+}
+
+body.active {
+  background-color: #0F172A;
+  background-image: none;
+}
+
+.hitech-logo {
+  text-shadow: 2px 2px 0 #0F172A;
+}
+

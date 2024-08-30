@@ -1,0 +1,18 @@
+.fa-angle-up {
+    border-radius: 100%;
+    transition: border-radius .4s ease;
+}
+
+.fa-angle-up:hover {
+    border-radius: 3px;
+}
+
+.scroll-to-top {
+    z-index: 100000;
+    visibility: hidden;
+    transition: visibility .4s ease;
+}
+
+.scroll-to-top.active {
+    visibility: visible;
+}

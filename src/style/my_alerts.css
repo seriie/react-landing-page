@@ -1,0 +1,12 @@
+.alert-box {
+    position: fixed;
+    top: -100px; /* Position the alert box out of the viewport initially */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999999;
+    transition: top 0.4s ease; /* Animate the top property */
+}
+
+.alert-box.active {
+    top: 20px; /* Move it down when active */
+}
