@@ -6,9 +6,8 @@ function Loading() {
   const [loading, setLoading] = useState(true);
   const body = document.body;
   
-  body.classList.add('loading');
   useEffect(() => {
-    const body = document.body;
+    body.classList.add('loading');
 
     const randomTimer = [
         500, 1000, 1500, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000
