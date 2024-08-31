@@ -3,19 +3,19 @@ import '../style/home.css'
 import gadget from '../images/gadget.png';
 
 export default function Home() {
-    useEffect(() => {
-        const right = document.querySelector('.right');
-        const left = document.querySelector('.left');
+    // useEffect(() => {
+    //     const right = document.querySelector('.right');
+    //     const left = document.querySelector('.left');
 
-        if (right || left) {
-            window.addEventListener('load', () => {
-                setTimeout(() => {
-                    left.classList.add('active');
-                    right.classList.add('active');
-                }, 1000);
-            });
-        }
-    }, []);
+    //     if (right || left) {
+    //         window.addEventListener('load', () => {
+    //             setTimeout(() => {
+    //                 left.classList.add('active');
+    //                 right.classList.add('active');
+    //             }, 1000);
+    //         });
+    //     }
+    // }, []);
 
     return (
         <>
