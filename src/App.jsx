@@ -8,6 +8,7 @@ import Product from './components/Product';
 import More from './components/More';
 import MyAlerts from './components/My_alerts';
 import ScrollToTop from './components/Scroll_btn';
+import Loading from './components/loading';
 import Auth from './auth/auth';
 import './App.css';
 import './style/dark-mode.css';
@@ -128,6 +129,7 @@ function App() {
 
   return (
     <>
+    <Loading />
       {showAuth ? (
         <Auth onLoginSuccess={handleLoginSuccess} />
       ) : (
