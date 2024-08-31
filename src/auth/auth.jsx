@@ -48,8 +48,8 @@ export default function Auth({ onLoginSuccess }) {
             if (storedUser && storedUser.username === username && storedUser.password === password) {
                 showAlert('Login successful');
                 setTimeout(() => {
-                    onLoginSuccess();
                     location.reload();
+                    onLoginSuccess();
                 }, 1500);
             } else {
                 showAlert('Invalid username or password');
