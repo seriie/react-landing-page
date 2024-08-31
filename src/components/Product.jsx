@@ -33,7 +33,7 @@ export default function Product() {
             <div className='container flex m-auto justify-between '>
                 <div className='products product1'>
                     <div className='image'>
-                        <div className='hover-me'>Hover/Hold Me</div>
+                        <div className='hover-me'>Hover/Tap Me</div>
                         <img className='iphone' src={iphone} alt="iPhone"></img>
                     </div>
                     <div className='title'>iPhone</div>
@@ -43,7 +43,7 @@ export default function Product() {
                 </div>
                 <div className='products product2'>
                     <div className='image'>
-                        <div className='hover-me'>Hover/Hold Me</div>
+                        <div className='hover-me'>Hover/Tap Me</div>
                         <img className='ipad' src={ipad} alt="iPad"></img>
                     </div>
                     <div className='title'>iPad</div>
@@ -53,7 +53,7 @@ export default function Product() {
                 </div>
                 <div className='products product3'>
                     <div className='image'>
-                        <div className='hover-me'>Hover/Hold Me</div>
+                        <div className='hover-me'>Hover/Tap Me</div>
                         <img className='apple-watch' src={appleWatch} alt="Apple Watch"></img>
                     </div>
                     <div className='title'>Apple Watch</div>
@@ -63,7 +63,7 @@ export default function Product() {
                 </div>
                 <div className='products product4'>
                     <div className='image'>
-                        <div className='hover-me'>Hover/Hold Me</div>
+                        <div className='hover-me'>Hover/Tap Me</div>
                         <img className='airpods' src={airpods} alt="AirPods"></img>
                     </div>
                     <div className='title'>AirPods</div>
