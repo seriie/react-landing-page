@@ -132,6 +132,7 @@ function App() {
         <Auth onLoginSuccess={handleLoginSuccess} />
       ) : (
         <div>
+          {location.reload}
           <MyAlerts />
           <Head />
           <SideBar 

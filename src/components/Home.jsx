@@ -12,7 +12,7 @@ export default function Home() {
                 setTimeout(() => {
                     left.classList.add('active');
                     right.classList.add('active');
-                }, 50);
+                }, 1000);
             });
         }
     }, []);
