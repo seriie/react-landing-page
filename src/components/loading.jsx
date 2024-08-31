@@ -8,7 +8,6 @@ function Loading() {
   
   useEffect(() => {
     body.classList.add('loading');
-    window.scrollTo(0, 0)
 
     const randomTimer = [
         500, 1000, 1500, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000
