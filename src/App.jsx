@@ -100,7 +100,6 @@ function App() {
 
   const handleLogout = () => {
     localStorage.removeItem('user');
-    location.reload();
     setIsAuthenticated(false);
     setShowAuth(false);
   };
