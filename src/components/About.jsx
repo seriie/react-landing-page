@@ -48,16 +48,16 @@ export default function About() {
                         <div className="text text-slate-100 mb-[10px]">Contact us for more amazing thing anywhere you want</div>
                     </div>
                     <div className='socialMedia flex gap-4'>
-                        <a href="https://instagram.com/zzzeeee05" target="__blank" rel="noopener noreferrer">
+                        <a href="" rel="noopener noreferrer">
                             <i className="fab fa-instagram text-slate-50 border-solid border-2 py-2 px-2.5 text-[20px] rounded-full border-slate-50"></i>
                         </a>
                         <a href={`https://wa.me/6285156346349?text=${message}`} target="__blank" rel="noopener noreferrer">
                             <i className="fab fa-whatsapp hover:bg-green-500 text-slate-50 border-solid border-2 py-2 px-2.5 text-[20px] rounded-full border-slate-50"></i>
                         </a>
-                        <a href="https://github.com/seriie" target="__blank" rel="noopener noreferrer">
+                        <a href="" rel="noopener noreferrer">
                             <i className="fab fa-github hover:bg-indigo-700 text-slate-50 border-solid border-2 p-2 text-[20px] rounded-full border-slate-50"></i>
                         </a>
-                        <a href="mailto:mohammadzidane058@gmail.com" target="__blank" rel="noopener noreferrer">
+                        <a href="" rel="noopener noreferrer">
                             <i className="fas fa-envelope hover:bg-red-600 text-slate-50 border-solid border-2 p-2 text-[20px] rounded-full border-slate-50"></i>
                         </a>
                     </div>

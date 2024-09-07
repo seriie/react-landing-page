@@ -9,6 +9,7 @@ import More from './components/More';
 import MyAlerts from './components/My_alerts';
 import ScrollToTop from './components/Scroll_btn';
 import Loading from './components/loading';
+import ScrollBar from './components/Scroll_bar';
 import Auth from './auth/auth';
 import './App.css';
 import './style/dark-mode.css';
@@ -115,6 +116,7 @@ function App() {
           >
             <Logo />
             <Header />
+            <ScrollBar />
             <LoginButton 
               toggleAuth={toggleAuth} 
               isAuthenticated={isAuthenticated} 
